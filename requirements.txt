@@ -1,20 +1,26 @@
-# Dépendances principales pour les requêtes HTTP et l'asynchrone
+# Dépendances principales
 httpx==0.24.1
 aiohttp==3.9.1
+aiofiles==23.2.1
 
-# Framework pour l'interface en ligne de commande
+# Pour le cache et le stockage
+aiohttp-client-cache==0.8.2
+
+# Interface en ligne de commande
 click==8.1.7
 
-# Gestion des types et validation des données
+# Validation des données
 pydantic==2.4.2
 typing-extensions==4.8.0
 
-# Affichage console amélioré
+# Affichage console
 rich==13.7.0
 
-# Pour les tests
+# Tests
 pytest==7.4.0
 pytest-asyncio==0.21.1
+pytest-cov==4.1.0
 
-# Pour le rate limiting
-aiohttp-client-cache==0.8.2
+# Utilitaires
+python-dateutil==2.9.0
+tenacity==8.2.3
