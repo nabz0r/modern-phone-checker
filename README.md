@@ -53,6 +53,8 @@ modern-phone-checker/
 
 Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request.
 
-## Licence
+📞 Contact
+Email: nabz0r@gmail.com GitHub: @nabz0r
 
-MIT License
+📜 License
+MIT License - Innovation without Boundaries
