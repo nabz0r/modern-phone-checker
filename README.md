@@ -4,6 +4,10 @@
 
 Ce projet permet de vérifier rapidement et efficacement si un numéro de téléphone est enregistré sur différentes plateformes comme WhatsApp, Telegram, Instagram et Snapchat, tout en respectant les bonnes pratiques et les limitations d'API.
 
+<p align="center">
+ <a href="https://www.buymeacoffee.com/nabz0r"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"></a>
+</p>
+
 ## ✨ Caractéristiques
 
 🚀 **Performances Optimales**
