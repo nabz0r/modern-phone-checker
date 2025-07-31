@@ -1,26 +1,50 @@
 # Dépendances principales
-httpx==0.24.1
+httpx==0.25.2
 aiohttp==3.9.1
 aiofiles==23.2.1
 
+# Validation et formatage des numéros de téléphone
+phonenumbers==8.13.27
+
 # Pour le cache et le stockage
-aiohttp-client-cache==0.8.2
+aiosqlite==0.19.0
 
 # Interface en ligne de commande
 click==8.1.7
 
 # Validation des données
-pydantic==2.4.2
-typing-extensions==4.8.0
+pydantic==2.5.2
+typing-extensions==4.9.0
 
-# Affichage console
+# Affichage console rich
 rich==13.7.0
 
+# Configuration et logging
+pyyaml==6.0.1
+python-dotenv==1.0.0
+
 # Tests
-pytest==7.4.0
+pytest==7.4.3
 pytest-asyncio==0.21.1
 pytest-cov==4.1.0
+pytest-mock==3.12.0
 
 # Utilitaires
-python-dateutil==2.9.0
+python-dateutil==2.8.2
 tenacity==8.2.3
+
+# Développement
+black==23.12.1
+flake8==6.1.0
+mypy==1.8.0
+pre-commit==3.6.0
+
+# Documentation
+sphinx==7.2.6
+sphinx-rtd-theme==2.0.0
+
+# Sécurité
+bandit==1.7.5
+
+# Performance monitoring
+psutil==5.9.6
