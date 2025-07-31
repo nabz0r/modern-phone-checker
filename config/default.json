@@ -1,0 +1,43 @@
+{
+  "cache": {
+    "enabled": true,
+    "directory": ".cache",
+    "expire_after": 3600,
+    "max_size_mb": 100
+  },
+  "logging": {
+    "level": "INFO",
+    "console_output": true,
+    "file_path": null
+  },
+  "platforms": {
+    "whatsapp": {
+      "enabled": true,
+      "rate_limit_calls": 10,
+      "rate_limit_period": 60,
+      "timeout": 10.0,
+      "retry_attempts": 3
+    },
+    "telegram": {
+      "enabled": true,
+      "rate_limit_calls": 5,
+      "rate_limit_period": 60,
+      "timeout": 15.0,
+      "retry_attempts": 2
+    },
+    "instagram": {
+      "enabled": true,
+      "rate_limit_calls": 5,
+      "rate_limit_period": 60,
+      "timeout": 10.0,
+      "retry_attempts": 2
+    },
+    "snapchat": {
+      "enabled": true,
+      "rate_limit_calls": 3,
+      "rate_limit_period": 60,
+      "timeout": 15.0,
+      "retry_attempts": 1
+    }
+  }
+}
